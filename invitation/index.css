@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Pacifico');
+
+body{
+    text-align: center;
+    font-size: 32px;
+    background-image: url(../assets/1\ \ st\ bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   font-family:'Rancho'
+}
+#outer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #69a7a0;
+    font-size: 45px;
+}
+#nameboard{
+    transform: translateY(-30px); /* Move up by 20px initially */
+    transition: opacity 1.9s ease-out, transform 1.9s ease-out;
+}
+#nameboard h3{
+    font-family:'Rancho' ;
+}
+#marriedPic{
+    background-image: url(../assets/We\ are\ married.png);
+    height: 140px;
+    width: 600px;
+}
+#quote{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: lighter;
+    padding: 30px 150px;
+}
+i{
+    color: rgb(168, 82, 115);
+}
+hr{
+    width: 150px;
+    display: inline-block;
+    height: 0px;
+    border: 1px solid black;
+    border-radius: 3px; 
+}
+#event{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+/* #event section{
+    border: 1px solid black;
+} */
+section h3{
+    background-color: rgb(178,195,213);
+    line-height: 50px;
+    margin: 0px;
+    border: 0;
+    position: relative;
+    top: 0px;
+}
+#event img{
+    width: 370px;
+    height: 200px;
+    background-color: aliceblue;  
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+.content{
+    font-size: 25px;
+    border: 0.5px solid lightslategray;
+    padding-bottom: 30px;
+}
+.eve:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 10px 10px 15px rgb(168, 82, 115);
+}
+.content button{
+    padding: 10px 40px;
+    background-color: rgb(178,195,213);
+    border: none;
+    border-radius: 5px;
+}
+#wishes{
+    display: flex;
+    margin-top: 30px;
+}
+#wishes img{
+    height: 400px ;
+    width: 400px;
+    position: relative;
+    left: 50px;
+    filter: drop-shadow(10px 8px 10px rgb(199, 87, 162));
+    transition: 5s ease;
+}
+#message{
+    background: linear-gradient(to right, rgb(204, 111, 184), rgb(120, 59, 148));
+    border-radius: 25px;
+    margin: 20px;
+}
+#btn{
+    padding: 10px 40px;
+    background-color: rgb(178,195,213);
+    border: none;
+    border-radius: 5px; 
+    font-size: 20px;
+    margin-top: 20px;
+}
+#wpme{
+    padding: 30px;
+    margin: 10px 200px;
+}
